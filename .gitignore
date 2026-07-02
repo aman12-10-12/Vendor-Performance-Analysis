@@ -1,0 +1,31 @@
+# Data folder
+data/
+
+# Logs
+logs/
+
+# Anoconda project files
+anoconda_project/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore experimental notebook
+Untitled.ipynb
+
+# SQLite databases
+*.db
+*.sqlite
+
+# Python cache
+pycache/
+*.py[cod]
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Log files
+*.log
