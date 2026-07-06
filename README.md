@@ -270,7 +270,6 @@ The **top 10 vendors contribute 65.69%** of total purchases, leaving the busines
 <div align="center">
 
 **Aman Raj**
-Data Analytics Project · 29 June – 6 July
 
 *Built with Python, SQL, and Power BI*
 
