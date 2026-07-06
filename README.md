@@ -17,7 +17,7 @@
 An end-to-end data analytics project that integrates purchase, sales, pricing, and freight data into a consolidated vendor summary table, then applies exploratory data analysis, statistical hypothesis testing, and Power BI visualization to uncover actionable procurement and profitability insights.
 
 <p align="center">
-  <img src="assets/dashboard_overview.png" alt="Vendor Performance Power BI Dashboard" width="850">
+  <img src="Images/dashboard_overview.png" alt="Vendor Performance Power BI Dashboard" width="850">
   <br>
   <em>Interactive Power BI dashboard — Total Sales, Total Purchase, Gross Profit, Profit Margin & Unsold Capital at a glance</em>
 </p>
@@ -110,7 +110,7 @@ Business Insights & Recommendations
 ```
 
 <p align="center">
-  <img src="assets/pipeline_architecture.png" alt="Project pipeline diagram" width="750">
+  <img src="Images/pipeline_architecture.png" alt="Project pipeline diagram" width="750">
   <br>
   <em>End-to-end workflow: from raw CSVs to business recommendations</em>
 </p>
@@ -124,7 +124,7 @@ Business Insights & Recommendations
 ├── Vendor_Performance_Analysis.ipynb   # Full EDA, feature engineering & statistical analysis
 ├── Data_Analysis_Report.pdf            # Full written analysis report
 ├── POWER_BI_DASHBOARD_REPORT.pdf       # Power BI dashboard documentation
-├── assets/                             # Images used in this README
+├── Images/                             # Images used in this README
 ├── logs/                               # Runtime logs for ingestion & summary scripts
 └── README.md
 ```
@@ -164,7 +164,7 @@ These are joined via SQL (see `get_vendor_summary.py`) into a single **Vendor Sa
   - Stock Turnover vs. Profitability: weak negative — faster turnover ≠ higher profit
 
 <p align="center">
-  <img src="assets/correlation_heatmap.png" alt="Correlation heatmap of vendor sales summary metrics" width="700">
+  <img src="Images/correlation_heatmap.png" alt="Correlation heatmap of vendor sales summary metrics" width="700">
   <br>
   <em>Correlation heatmap across all engineered and raw KPI columns</em>
 </p>
@@ -209,7 +209,7 @@ An interactive dashboard was built on the Vendor Sales Summary dataset with the 
 
 The **top 10 vendors contribute 65.69%** of total purchases, leaving the business exposed to supply chain risk from vendor concentration.
 
-<img src="assets/pareto_vendor_contribution.png" alt="Pareto chart of vendor contribution to total purchases" width="100%">
+<img src="Images/pareto_vendor_contribution.png" alt="Pareto chart of vendor contribution to total purchases" width="100%">
 
 </td>
 <td width="50%">
@@ -218,14 +218,14 @@ The **top 10 vendors contribute 65.69%** of total purchases, leaving the busines
 
 **198 brands** show low sales but high profit margins — strong candidates for targeted promotions or pricing adjustments.
 
-<img src="assets/low_sales_high_margin_brands.png" alt="Scatter plot of brands with low sales but high profit margins" width="100%">
+<img src="Images/low_sales_high_margin_brands.png" alt="Scatter plot of brands with low sales but high profit margins" width="100%">
 
 </td>
 </tr>
 </table>
 
 <p align="center">
-  <img src="assets/top_vendors_by_sales.png" alt="Top 10 vendors by sales" width="700">
+  <img src="Images/top_vendors_by_sales.png" alt="Top 10 vendors by sales" width="700">
   <br>
   <em>Diageo North America Inc leads vendor sales at ~$68M, followed by Martignetti Companies and Pernod Ricard USA</em>
 </p>
